@@ -2,8 +2,6 @@
 .vscode/
 .idea/
 
-/mysite/settings.py
-
 # Vagrant
 .vagrant/
 
