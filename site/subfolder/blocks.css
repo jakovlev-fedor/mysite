@@ -1,0 +1,81 @@
+
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Here is one of many  CSS rules you will need... */
+
+.box {
+    width: 25%;
+    border: solid;
+    border-width: 5px;
+    margin: 1em;
+    padding: 1em;
+}
+
+#one {
+    border-color: #0B23FB;
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#two {
+    border-color: #0F7E12;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+#three {
+    border-color: #FDA529;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+#four {
+    visibility: hidden;
+    border-color: #FFFC38;
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+#link {
+    text-align: center;
+}
+
+a{
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+
+/*
+
+The four boxes have
+five pixel borders with different colors and
+five pixels of margin and padding.
+It is probably simplest to use fixed positioning
+to get the boxes to be "sticky" to the corners of the screen even when you resize.
+Make the boxes width be 25% so the width changes as you resize your browser.
+
+Center the link at the top of the page.
+Use your developer console / inspect element feature of your browser to visit
+https://www.brainyquote.com/ and figure out the background color, font, and text color they are
+using an replicate that exactly for the link in your index.htm.
+
+*/
